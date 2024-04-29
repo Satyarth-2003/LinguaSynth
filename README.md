@@ -1,6 +1,9 @@
 # LinguaSynth
 LinguaSynth is an advanced Natural Language Processing (NLP) chatbot developed using Dialogflow. It is designed to interact with users in a natural, conversational manner, providing answers to questions and facilitating engaging conversations.
 
+![image](https://github.com/Satyarth-2003/LinguaSynth/assets/90864161/e8a7a66e-21a3-4a1e-a7fd-e39a409db14c)
+
+
 **Features:**
 
 - Natural Language Understanding: Leverages Dialogflow to recognize intents and entities from user inputs for accurate response generation.
