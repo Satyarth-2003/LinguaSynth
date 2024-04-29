@@ -1,0 +1,40 @@
+Default Welcome Intent
+Text Response:
+"Welcome! How can I assist you today? Feel free to ask me any question or start a conversation."
+"Hi there! What would you like to chat about today? I'm here to help with any questions you have."
+"Hello! How can I help you today? You can ask me anything or just chat with me."
+Default Fallback Intent
+Text Response:
+"I'm sorry, I didn't understand that. Could you please rephrase your question or ask me anything else?"
+"It seems I'm unable to process your request. Try rewording your question or starting a new conversation."
+Intent: Small Talk
+Trigger Phrases:
+"How are you?"
+"What's the weather like?"
+"Tell me a joke"
+"What's your favorite color?"
+"What's your favorite movie?"
+"What's your favorite food?"
+"How old are you?"
+"What can you do?"
+Responses:
+"I'm just a chatbot, so I don't have feelings, but thank you for asking! How are you?"
+"Unfortunately, I can't give you real-time weather information, but I can chat about the topic if you'd like!"
+"Why don't scientists trust atoms? Because they make up everything!"
+"I don't have a favorite color, but what's yours?"
+"I don't watch movies, but I'd love to hear your recommendations!"
+"I don't eat food, but I'd love to hear about your favorite dishes!"
+"I don't have an age, but I'm always here to chat with you."
+"I can chat with you, answer questions, and help you with a variety of topics! Just ask."
+Intent: Ending Conversation
+Trigger Phrases:
+"Goodbye"
+"See you later"
+"Thanks, bye"
+"Talk to you later"
+"Exit"
+Responses:
+"Goodbye! Have a great day!"
+"See you next time!"
+"Thanks for chatting! Talk to you soon!"
+"Take care!"

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Talk to LinguaSynth - Your NLP bot</title>
+    <style>
+        :root {
+            --primary-color: #ffffff;
+            --secondary-color: #f5a623;
+            --text-color: #fffafa;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            /* Define the animation in the background property */
+            animation: backgroundAnimation 3s infinite ease-in-out;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px;
+            color: var(--primary-color);
+            font-size: 2em;
+        }
+
+        iframe.chat-bot {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 80%;
+            height: 80%;
+        }
+
+        /* Define the keyframes for the background animation */
+        @keyframes backgroundAnimation {
+            0% {
+                background: linear-gradient(
+                    45deg,
+                    #f5a623 0%,
+                    #4c3d79 50%,
+                    #292d71f2 100%
+                );
+            }
+            25% {
+                background: linear-gradient(
+                    45deg,
+                    #4c3d79 0%,
+                    #745522 50%,
+                    #4c3d79 100%
+                );
+            }
+            50% {
+                background: linear-gradient(
+                    45deg,
+                    #292d71f2 0%,
+                    #4c3d79 50%,
+                    #292d71f2 100%
+                );
+            }
+            75% {
+                background: linear-gradient(
+                    45deg,
+                    #4c3d79 0%,
+                    #292d71f2 50%,
+                    #4c3d79 100%
+                );
+            }
+            100% {
+                background: linear-gradient(
+                    45deg,
+                    #292d71f2 0%,
+                    #4c3d79 50%,
+                    #292d71f2 100%
+                );
+            }
+        }
+
+        /* Use a cubic-bezier function to make the transition smooth */
+        body {
+            animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Talk to LinguaSynth, Your NLP Companion</h1>
+    <iframe class="chat-bot" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/6d4170ae-4475-40a2-ae29-cde34c84cd58"></iframe>
+</body>
+
+</html>
